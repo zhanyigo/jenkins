@@ -4,7 +4,7 @@ openshift-client:0.9.6
 
 
 # kubernetes plugin - https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin
-kubernetes:0.10
+kubernetes:1.8.4
 
 # fabric8 openshift sync
 openshift-sync:0.1.24
@@ -13,7 +13,19 @@ openshift-sync:0.1.24
 # 2.5 now includes pipeline-model-definition (declaritive pipeline)
 # 2.4 brought in pipeline-milestone-step
 workflow-aggregator:2.5
-
+pipeline-milestone-step.jpi
+pipeline-model-api.jpi
+pipeline-model-declarative-agent.jpi
+pipeline-model-definition.jpi
+pipeline-model-extensions.jpi
+pipeline-rest-api.jpi
+build-pipeline-plugin.jpi
+pipeline-stage-step.jpi
+pipeline-build-step.jpi
+pipeline-stage-tags-metadata.jpi
+pipeline-graph-analysis.jpi
+pipeline-stage-view.jpi
+pipeline-input-step.jpi
 
 # remote loader https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Remote+Loader+Plugin
 workflow-remote-loader:1.2
@@ -28,10 +40,18 @@ ssh-credentials:1.13
 pipeline-utility-steps:1.1.5
 
 # Jenkins v2 specific
-matrix-auth:1.5
-blueocean:1.0.1
+matrix-auth:2.3
+blueocean:1.5.4
 
-# Legacy stuff
-mapdb-api:1.0.1.0
-subversion:2.5.7
+# ansible
+ansible:1.0
+
+# artifactory
+artifactory:2.16.2
+
+# gitlab
+gitlab-plugin:1.5.11
+gitlab-merge-request-jenkins:2.0.0
+
+
 
