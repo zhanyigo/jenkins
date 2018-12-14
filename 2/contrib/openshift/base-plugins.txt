@@ -46,7 +46,6 @@ artifactory:2.16.2
  github-api:1.95
  pipeline-input-step:2.8
  plain-credentials:1.5
- pipeline-github-lib:1
  gitlab-merge-request-jenkins:2.0.0
  parameterized-trigger:2.35.2
  token-macro:2.5
